@@ -62,6 +62,7 @@ The app follows the **Clean Architecture + MVVM** pattern, separating UI, busine
 ## Screenshots
 PLAN TRIP | CREATE TRIP | SELECT CITY |
 | :---------------: | :---------------: | :---------------: |
+| <img src="https://github.com/OmolaraIdowu/Travel-App/blob/main/screenshots/img.png" align="center" width="100%" alt="Screen 1"> | <img src="https://github.com/OmolaraIdowu/Travel-App/blob/main/screenshots/img_1.png" align="center" width="100%" alt="Screen 2"> | <img src="https://github.com/OmolaraIdowu/Travel-App/blob/main/screenshots/img_2.png" align="center" width="100%" alt="Screen 3">
 
 ## To-Do / Roadmap
 
