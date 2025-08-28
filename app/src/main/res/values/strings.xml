@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Travel App</string>
+    <string name="plan_a_trip">Plan a Trip</string>
+    <string name="plan_dream">Plan Your Dream Trip in Minutes</string>
+    <string name="plan_dream_sub">Build, personalize, and optimize your itineraries with our trip planner.Perfect for getaways, remote workcations, and any spontaneous escapade. </string>
+    <string name="where_to">Where to?</string>
+    <string name="select_city">Select City</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="create_trip">Create a Trip</string>
+    <string name="back">Back</string>
+    <string name="your_trips">Your Trips</string>
+    <string name="your_trips_sub">Your trip itineraries and planned trips are placed here</string>
+    <string name="planned_trips">Planned Trips</string>
+    <string name="past_trips">Past Trips</string>
+    <string name="view">View</string>
+    <string name="days">%1$d Days</string>
+    <string name="where">Where</string>
+    <string name="select_a_city">Please select a city</string>
+    <string name="search_city">Enter name of city</string>
+    <string name="date">Date</string>
+    <string name="continuee">Continue</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="create_a_trip">Create a Trip</string>
+    <string name="create_a_trip_sub">Let\'s Go! Build Your Next Adventure</string>
+    <string name="trip_name">Trip Name</string>
+    <string name="enter_trip_name">Enter trip name</string>
+    <string name="travel_style">Travel Style</string>
+    <string name="select_travel_style">Select your travel style</string>
+    <string name="trip_description">Trip Description</string>
+    <string name="trip_description_hint">Tell us more about the trip</string>
+    <string name="next">Next</string>
+    <string name="retry">Retry</string>
+</resources>
