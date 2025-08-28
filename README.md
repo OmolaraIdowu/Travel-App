@@ -43,16 +43,18 @@ A simple Android app built with **Jetpack Compose** to plan trips, select cities
 
 ---
 
+## APK
+
+
+
+
 ## How to Run
 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/<OmolaraIdowu>/travel-app.git
+git clone [https://github.com/<OmolaraIdowu>/travel-app.git](https://github.com/OmolaraIdowu/Travel-App.git)]
 ```
-
-2. **Open the project in Android Studio**  
-   - Select *Open an Existing Project* and choose the project folder.
 
 3. **Check your dependencies in `app/build.gradle`:**  
 
