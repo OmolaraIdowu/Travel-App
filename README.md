@@ -1,8 +1,18 @@
+<img src="https://img.shields.io/badge/made%20with-kotlin-blue.svg?style=plastic"> <img src="https://img.shields.io/badge/API-26%2B-brightgreen.svg?style=plastic">
+<br>
+
 # Travel App
 
 A simple Android app built with **Jetpack Compose** to plan trips, select cities and dates, and view trips from an API. Demonstrates **UI design, API integration, and state management** in Kotlin.
 
----
+## SDK Requirements
+- Minimum SDK Requirement - android API 26
+- Target SDK - android API 36 
+
+## Installation
+ - To run this code, clone this repository using this command
+
+`git clone https://github.com/OmolaraIdowu/Travel-App.git`
 
 ## Features
 
@@ -13,7 +23,16 @@ A simple Android app built with **Jetpack Compose** to plan trips, select cities
 - Display trip images.
 - Trip details displayed in a **bottom sheet** (currently in progress).
 
----
+## APK file
+
+You can download the APK file for this project [here](https://drive.google.com/file/d/1ps3i5alHHwElhF2ZgggE3JeajVVjyZHf/view?usp=drivesdk)
+
+## Architecture 
+The app follows the **Clean Architecture + MVVM** pattern, separating UI, business logic, and data:
+
+- **Domain:** Pure business logic and entities (`Trip`). Includes UseCases for creating and fetching trips.
+- **Data:** Handles API communication (`TravelApiService`) and repository implementation (`TravelRepository`). Maps DTOs to domain models.
+- **Presentation:** UI built with Jetpack Compose. ViewModels expose state to the UI using `StateFlow`.
 
 ## Screens
 
@@ -21,16 +40,6 @@ A simple Android app built with **Jetpack Compose** to plan trips, select cities
 2. **Date Picker Screen** – Pick a date range; selected dates update Plan Trip screen.
 3. **Trip Card** – Shows title, location, image, and duration.
 4. **Trip Details Screen** – **Under development**; shows placeholders for now.
-
----
-
-## Tech Stack
-
-- Kotlin, Jetpack Compose
-- Retrofit + OkHttp for API
-- Gson for JSON parsing
-- Coil for image loading
-- ViewModel + StateFlow for state management
 
 ---
 
@@ -43,45 +52,25 @@ A simple Android app built with **Jetpack Compose** to plan trips, select cities
 
 ---
 
-## APK
+## Libraries
+* [Jetpack Compose](https://developer.android.com/jetpack/compose) – UI toolkit
+* [Retrofit](https://square.github.io/retrofit/) & [OkHttp](https://square.github.io/okhttp/) – Networking
+* [Gson](https://github.com/google/gson) – JSON parsing
+* [Kotlin Coroutines](https://developer.android.com/kotlin/coroutines) – Async programming
+* [Coil](https://coil-kt.github.io/coil/) – Image loading (optional)
 
+## Screenshots
+PLAN TRIP | CREATE TRIP | SELECT CITY |
+| :---------------: | :---------------: | :---------------: |
 
-
-
-## How to Run
-
-1. **Clone the repository**
-
-```bash
-git clone [https://github.com/<OmolaraIdowu>/travel-app.git](https://github.com/OmolaraIdowu/Travel-App.git)]
-```
-
-3. **Check your dependencies in `app/build.gradle`:**  
-
-```gradle
-implementation("com.squareup.retrofit2:retrofit:2.9.0")
-implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
-implementation("io.coil-kt:coil-compose:2.4.0")
-```
-4. **Sync Gradle**
-    - Click *Sync Now* if prompted to ensure all dependencies are downloaded.
-
-5. **Run the app**
-    - Use an Android emulator or connect a physical device.
-    - Click the **Run** button (green play icon) in Android Studio.
-
-6. **Test the functionality**
-    - On the Plan Trip screen, select a city and date range.
-    - Trips will fetch from the API.
-    - Tap on a trip to view its details (bottom sheet; Trip Details screen is under development).
-
-7. **Optional:**
-    - Add your own API endpoints if you exceed Beeceptor request limits.
-    - Modify trip images by updating the `imageUrl` in the `Trip` data class.
-   
 ## To-Do / Roadmap
 
 - ⚠️ Trip Details screen – placeholders displayed
 - ⚠️ Complete booking functionality
 - ⚠️ Improve error handling and user feedback
+
+
+## Author
+
+* **OmolaraIdowu**  
+ - [LinkedIn](https://www.linkedin.com/in/omolara-idowu-0273661b4/)
